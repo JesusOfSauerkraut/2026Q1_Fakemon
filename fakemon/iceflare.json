@@ -19,7 +19,7 @@
     {
       "id": "flare_blitz",
       "name": "Flare Blitz",
-      "desc": "A fire attack",
+      "desc": "Big damage move that may burn",
       "speed": "medium",
       "damage": [220, 250],
       "status": "burn",
@@ -89,7 +89,7 @@
       "name": "Melt",
       "desc": "Restore HP.",
       "speed": "slow",
-      "damage": [-200, -375],
+      "damage": [-200, -375]
 
     },
 
@@ -104,75 +104,82 @@
     },
 
     {
-      "id": "freeze-off",
-      "name": "freeze-off",
+      "id": "freeze_off",
+      "name": "Freeze Off",
       "desc": "Increases all stats",
       "speed": "medium",
       "damage": [0, 0],
       "statuses": [
-    {
-      "status": "statup",
-      "statTarget" : "atk",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "atk",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "atk",
-      "statusChance": 0.9
-    },
-    {
-      "status": "statup",
-      "statTarget" : "atk",
-      "statusChance": 0.8
-    },
+      {
+        "status": "statup",
+        "statTarget" : "atk",
+        "statusChance": 1
+      },
+      
+      {
+        "status": "statup",
+        "statTarget" : "atk",
+        "statusChance": 1
+      },
 
-     {
-      "status": "statup",
-      "statTarget" : "defense",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "defense",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "defense",
-      "statusChance": 0.9
-    },
-    {
-      "status": "statup",
-      "statTarget" : "defense",
-      "statusChance": 0.8
-    }
-    ,
+      {
+        "status": "statup",
+        "statTarget" : "atk",
+        "statusChance": 0.9
+      },
 
-     {
-      "status": "statup",
-      "statTarget" : "speed",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "speed",
-      "statusChance": 1
-    },
-    {
-      "status": "statup",
-      "statTarget" : "speed",
-      "statusChance": 0.9
-    },
-    {
-      "status": "statup",
-      "statTarget" : "speed",
-      "statusChance": 0.8
-    }
+      {
+        "status": "statup",
+        "statTarget" : "atk",
+        "statusChance": 0.8
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "defense",
+        "statusChance": 1
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "defense",
+        "statusChance": 1
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "defense",
+        "statusChance": 0.9
+      },
+      {
+        "status": "statup",
+        "statTarget" : "defense",
+        "statusChance": 0.8
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "speed",
+        "statusChance": 1
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "speed",
+        "statusChance": 1
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "speed",
+        "statusChance": 0.9
+      },
+
+      {
+        "status": "statup",
+        "statTarget" : "speed",
+        "statusChance": 0.8
+      }
   ]
     }
   ]
