@@ -1,8 +1,8 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-22 18:30:49  
-**Files scanned:** 88  
-**Files flagged:** 28  
+**Generated:** 2026-04-22 18:32:36  
+**Files scanned:** 91  
+**Files flagged:** 31  
 
 ---
 
@@ -27,6 +27,14 @@
 | — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "candiru.json" but id is "candiru1_1" (82% similar). Did you mean id: "candiru"?` | `` |
 | 16 | 🤬 Profanity | AUTO-SANITIZE | `piss` | `"name": "don't piss",` |
 | 36 | 😠 Bullying/Targeting | REVIEW ONLY | `weak` | `"desc": "Swims up the water Spout so it can find your weak point."` |
+
+### 🚩 `eurasianbear.json`
+
+**1 issue(s)**
+
+| Line | Category | Action | Matched / Message | Full Line |
+|------|----------|--------|-------------------|-----------|
+| 13 | 🗳️ Political | REVIEW ONLY | `Russia` | `"description": "Born in Russia Raised by Russia Lives for Russia",` |
 
 ### 🚩 `hi.json`
 
@@ -109,6 +117,14 @@
 ---
 
 ## 🔧 Syntax / ID Errors Only
+
+### 🚩 `Marlow_1.json`
+
+**1 issue(s)**
+
+| Line | Category | Action | Matched / Message | Full Line |
+|------|----------|--------|-------------------|-----------|
+| — | 📛 ID/Filename | REVIEW ONLY | `Case mismatch — filename is "Marlow_1.json" but id is "marlow_1". Did you mean id: "Marlow_1"?  (IDs are case-sensitive)` | `` |
 
 ### 🚩 `Dylan.json`
 
@@ -205,6 +221,14 @@
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "jacob.json" but id is "Conquest". The "id" field must exactly match the filename (case-sensitive).` | `` |
+
+### 🚩 `jellyfish.json`
+
+**1 issue(s)**
+
+| Line | Category | Action | Matched / Message | Full Line |
+|------|----------|--------|-------------------|-----------|
+| — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "jellyfish.json" but id is "jellyfish_1" (90% similar). Did you mean id: "jellyfish"?` | `` |
 
 ### 🚩 `jesus.json`
 
