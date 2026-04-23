@@ -1,0 +1,78 @@
+{
+  "id": "jesus1_1",
+  "name": "Pando",
+  "createdBy": "Jesus Jor-El Taylor",
+  "emoji": "🌲",
+  "type": "Nature",
+  "hp": 200,
+  "atk": 107,
+  "speed": 30,
+  "defense": 70,
+  "accuracy": 83,
+  "color": "#DAA520",
+  "description": "A giant living forest that is like massive.",
+  "moves": [
+    {
+      "id": "jesus1_m1",
+      "name": "suffocation",
+      "speed": "fast",
+      "damage": [
+        14,
+        15
+      ],
+      "status": "sleep",
+      "statusChance": 0.7,
+      "desc": "Roots surround the opponent, wrapping them up and slowly suffocating them."
+    },
+    {
+      "id": "jesus1_m2",
+      "name": "Peirce",
+      "speed": "slow",
+      "damage": [
+        30,
+        90
+      ],
+      "status": "sleep",
+      "statusChance": 0.2,
+      "desc": "Roots sprout from the ground, stabbing the opponent."
+    },
+    {
+      "id": "jesus1_m3",
+      "name": "Photosynthesis",
+      "speed": "slow",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statup",
+      "statusChance": 1,
+      "desc": "It's just Photosynthesis.",
+      "statTarget": "atk"
+    },
+    {
+      "id": "jesus1_m4",
+      "name": "Entanglement",
+      "speed": "slow",
+      "damage": [
+        10,
+        30
+      ],
+      "status": "paralyze",
+      "statusChance": 1,
+      "desc": "Roots wrap around the opponents limbs, stunning them."
+    },
+    {
+      "id": "jesus1_m5",
+      "name": "Seed fling",
+      "speed": "medium",
+      "damage": [
+        10,
+        30
+      ],
+      "status": "statdwn",
+      "statusChance": 1,
+      "desc": "A seed gets flung from a tree, sprouting inside the opponents body.",
+      "statTarget": "speed"
+    }
+  ]
+}
